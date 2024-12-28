@@ -1,0 +1,43 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "theme": "Catppuccin Mocha",
+  "assistant": {
+    "dock": "left",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-3-5-sonnet"
+    },
+    "version": "2"
+  },
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_size": 13,
+  "ui_font_family": "JetBrains Mono",
+  "ui_font_size": 15,
+  "terminal": {
+    "font_family": "JetBrainsMono Nerd Font"
+  },
+  "project_panel": {
+    "dock": "right"
+  },
+  "lsp": {
+    "terraform-ls": {
+      "initialization_options": {
+        "experimentalFeatures": {
+          "prefillRequiredFields": true
+        }
+      }
+    }
+  },
+  "powershell-es": {
+    "binary": {
+      "path": "/opt/homebrew/bin/pwsh"
+    }
+  }
+}
